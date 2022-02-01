@@ -2,7 +2,7 @@
 
 var mongoose = require('mongoose');
 var app = require('./app');
-var port = 3900;
+var port = process.env.PORT || 3900
 var url_mongodb_atlas = 'mongodb+srv://ronnyaraujo57:Ronnymak16@cluster0.aqz7f.mongodb.net/test'
 var url_local = 'mongodb://localhost:27017/api_rest_blog'
 
